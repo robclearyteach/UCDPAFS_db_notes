@@ -1,0 +1,63 @@
+
+====================
+01
+====================
+	# The following sequence is equiv' to the 
+	#	- SQL_Lab01a
+	#	- SQL_Lab01b
+	# & also including an SQLite download and getting-started
+
+#	1. Download and install postgres/pgAdmin 
+	https://neon.com/postgresql/postgresql-getting-started	
+	
+	##IMPORTANT: **Remember the password you choose** for the master-user when you install!!
+	
+
+#   2. Following the ...getting-started/ above
+		( https://www.enterprisedb.com/docs/supported-open-source/postgresql/installing/windows/ )
+	
+		#2.a
+		https://neon.com/postgresql/postgresql-getting-started/connect-to-postgresql-database
+		#2.b
+		https://neon.com/postgresql/postgresql-getting-started/postgresql-sample-database			#download
+		https://neon.com/postgresql/postgresql-getting-started/load-postgresql-sample-database		#load instructions
+		
+		#2.a: related link explaining psql cmd-line tool and common commands		
+				https://www.postgresguide.com/utilities/psql/
+		
+				# for psql commands
+				https://neon.com/postgresql/postgresql-cheat-sheet
+		
+		#
+		# Additional
+		#
+		# To Uninstall:	
+			https://www.enterprisedb.com/docs/supported-open-source/postgresql/uninstalling/				#if need to uninstall
+
+
+		
+		
+# 
+#   3. SQLite/SQLiteStudio
+		# **SQLite download**
+		# GOTO: 'Precompiled Binaries for XxxOS'
+		#  Recommend: 'sqlite_**tools**...'
+		#	"Command-line tools for Windows ARM64, including (1) the command-line shell, (2) sqldiff.exe, (3) sqlite3_analyzer.exe"
+		#	.zip file
+		https://www.sqlite.org/download.html		
+		
+		https://www.sqlite.org/quickstart.html
+		https://www.sqlite.org/cli.html
+		
+		#Downloads --> choose OS (may auto detect at homepage)
+		https://sqlitestudio.pl/
+		
+		
+#	4. UCDPA LMS: Unit02 --> CaseStudy.zip
+#			
+#		@See shared-notes: 
+	* _sample_db_dreamhome/dreamhome_postgres.sql
+	* _sample_db_dreamhome/dreamhome_sqlite.sql
+	
+	
+	
