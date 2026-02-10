@@ -21,6 +21,7 @@
 		#2.b
 		https://neon.com/postgresql/postgresql-getting-started/postgresql-sample-database			#download
 		https://neon.com/postgresql/postgresql-getting-started/load-postgresql-sample-database		#load instructions
+		https://neon.com/postgresql/postgresql-getting-started/connect-to-postgresql-database
 		
 		#2.a: related link explaining psql cmd-line tool and common commands		
 				https://www.postgresguide.com/utilities/psql/
