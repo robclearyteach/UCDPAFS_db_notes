@@ -1,3 +1,5 @@
+-- database: dvdrental
+--
 -- 1. Retrieve all information from the customer table.
 
 -- 2. Retrieve the film ID, title, and release year from the film table 

@@ -1,6 +1,6 @@
 
 ====================
-01
+01a
 ====================
 	# The following sequence is equiv' to the 
 	#	- SQL_Lab01a
@@ -61,4 +61,28 @@
 	* _sample_db_dreamhome/dreamhome_sqlite.sql
 	
 	
-	
+
+
+
+
+====================
+01b
+====================
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select/
+https://neon.com/postgresql/postgresql-administration/postgresql-drop-database
+https://www.postgresqltutorial.com/postgresql-administration/postgresql-backup-database/
+https://neon.com/postgresql/postgresql-administration/postgresql-create-database#3-creating-a-new-database-using-pgadmin
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/
+https://neon.com/postgresql/postgresql-tutorial/postgresql-create-table-as
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select-into/
+http://cswire.blogspot.com/2017/11/sqlitestudio-tutorial-basic-database.html
+
+# SQL Practice/Learning
+# PGExercises
+https://pgexercises.com/questions/basic/			#Online Questions Start here
+https://pgexercises.com/
+https://pgexercises.com/gettingstarted.html
+
+#SQLZoo
+https://sqlzoo.net/
