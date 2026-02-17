@@ -86,3 +86,18 @@ https://pgexercises.com/gettingstarted.html
 
 #SQLZoo
 https://sqlzoo.net/
+
+
+====================
+02a
+====================
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-serial/
+	https://neon.com/postgresql/postgresql-tutorial/postgresql-create-table
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-delete/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update/
+https://www.postgresql.org/docs/current/sql-createdomain.html
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
+https://www.postgresqltutorial.com/postgresql-tutorial/import-csv-file-into-posgresql-table/
