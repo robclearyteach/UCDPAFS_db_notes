@@ -101,3 +101,21 @@ https://www.postgresql.org/docs/current/sql-createdomain.html
 
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
 https://www.postgresqltutorial.com/postgresql-tutorial/import-csv-file-into-posgresql-table/
+
+
+
+====================
+02b
+====================
+https://neon.com/postgresql/postgresql-tutorial/postgresql-check-constraint
+
+https://neon.com/postgresql/postgresql-tutorial/postgresql-user-defined-data-types
+
+https://www.w3schools.com/sql/sql_check.asp
+https://www.w3schools.com/sql/sql_notnull.asp
+https://www.w3schools.com/sql/sql_unique.asp
+https://www.w3schools.com/sql/sql_primarykey.asp
+https://www.w3schools.com/sql/sql_default.asp
+
+https://neon.com/postgresql/postgresql-tutorial/import-csv-file-into-posgresql-table
+https://neon.com/postgresql/postgresql-tutorial/export-postgresql-table-to-csv-file
