@@ -119,3 +119,35 @@ https://www.w3schools.com/sql/sql_default.asp
 
 https://neon.com/postgresql/postgresql-tutorial/import-csv-file-into-posgresql-table
 https://neon.com/postgresql/postgresql-tutorial/export-postgresql-table-to-csv-file
+
+
+====================
+03a
+====================
+
+https://www.sqlite.org/quickstart.html
+https://www.sqlite.org/cli.html					
+https://sqlitestudio.pl/
+http://cswire.blogspot.com/2017/11/sqlitestudio-tutorial-basic-database.html
+
+
+
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert/				-- @See Returning Clause
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-date/					
+https://www.postgresqltutorial.com/postgresql-date-functions/
+https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-to_date/
+https://www.postgresqltutorial.com/postgresql-string-functions/postgresql-to_char/
+    ## https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-extract/
+https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-age/
+https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-date_part/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-interval/
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-rename-table/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-column/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-add-column/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-default-value/
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-change-column-type/
