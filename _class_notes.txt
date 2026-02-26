@@ -151,3 +151,19 @@ https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-column/
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-add-column/
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-default-value/
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-change-column-type/
+
+
+
+
+====================
+03b
+====================
+
+https://sqlite.org/fiddle/index.html
+https://www.sqlite.org/cli.html
+https://www.sqlite.org/cli.html#dotcmd
+https://www.sqlite.org/cli.html#changing_output_formats
+https://www.sqlite.org/docs.html 													-- (for ref)
+
+https://docs.sqlalchemy.org/en/20/tutorial/engine.html#tutorial-engine
+https://docs.sqlalchemy.org/en/20/tutorial/dbapi_transactions.html
