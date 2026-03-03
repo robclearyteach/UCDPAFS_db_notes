@@ -167,3 +167,16 @@ https://www.sqlite.org/docs.html 													-- (for ref)
 
 https://docs.sqlalchemy.org/en/20/tutorial/engine.html#tutorial-engine
 https://docs.sqlalchemy.org/en/20/tutorial/dbapi_transactions.html
+
+
+
+
+====================
+04a
+====================
+
+https://neon.com/postgresql/postgresql-administration/postgresql-create-schema
+https://neon.com/postgresql/postgresql-administration/postgresql-roles
+https://neon.com/postgresql/postgresql-administration/postgresql-alter-role
+https://neon.com/postgresql/postgresql-administration/postgresql-grant
+https://neon.com/postgresql/postgresql-administration/postgresql-revoke
