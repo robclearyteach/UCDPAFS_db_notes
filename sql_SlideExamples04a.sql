@@ -223,6 +223,55 @@ postgres=#\q
 --  password authentication  user "testuser"
 
 
+play_schema=> \c play_schema postgres
+play_schema=# GRANT USAGE ON SCHEMA sales TO testuser;
+play_schema=# GRANT SELECT ON sales.staff TO testuser;
+play_schema=# \c play_schema testuser
+play_schema=> SELECT * FROM sales.staff;
+
+play_schema=> 
+INSERT INTO sales.staff (staff_id, first_name, last_name, email) 
+VALUES
+(1, 'Alice', 'Smith', 'alice.smith@example.com'),
+(2, 'Bob', 'Johnson', 'bob.johnson@example.com'),
+(3, 'Carol', 'Williams', 'carol.williams@example.com');
+-- ERROR:  permission denied for table staff
+
+play_schema=> \c play_schema postgres
+play_schema=# GRANT INSERT, UPDATE ON sales.staff TO testuser;
+play_schema=# \c play_schema testuser
+
+INSERT INTO sales.staff (staff_id, first_name, last_name, email)
+VALUES
+(1, 'Alice', 'Smith', 'alice.smith@example.com'),
+(2, 'Bob', 'Johnson', 'bob.johnson@example.com'),
+(3, 'Carol', 'Williams', 'carol.williams@example.com');
+
+-- INSERT 0 3
+play_schema=> 
+UPDATE sales.staff SET first_name = 'Michael' where first_name = 'Bob';
+UPDATE 1
+play_schema=> 
+SELECT * FROM sales.staff;
+
+
+-- ## 'rollback' concept (manually)
+UPDATE staff SET first_name = 'Bob' where first_name = 'Michael';
+SELECT * FROM staff;
+
+
+
+-- ## Postgres system tables
+SELECT grantee, privilege_type
+FROM information_schema.role_table_grants
+WHERE grantee = 'testuser';
+
+
+
+REVOKE SELECT ON ALL TABLES IN SCHEMA public FROM testuser;
+REVOKE UPDATE ON ALL TABLES IN SCHEMA public FROM testuser;
+
+play_schema=> \q
 
 
 
@@ -266,11 +315,6 @@ ERROR:  permission denied for table booking
 
 
 
--- ## %%
--- ## python to postgres
--- ## with psycopg2 adapter
--- ## follow sequence within...
--- test_psycopg2.ipynb
 
 -- ## %%
 -- ## GRANT UPDATE
@@ -299,6 +343,11 @@ SELECT * FROM staff;
 -- ## Revert back to Python .ipynb file demo
 
 
+-- ## %%
+-- ## python to postgres
+-- ## with psycopg2 adapter
+-- ## follow sequence within...
+-- test_psycopg2.ipynb
 
 
 
