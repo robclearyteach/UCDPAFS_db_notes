@@ -180,3 +180,14 @@ https://neon.com/postgresql/postgresql-administration/postgresql-roles
 https://neon.com/postgresql/postgresql-administration/postgresql-alter-role
 https://neon.com/postgresql/postgresql-administration/postgresql-grant
 https://neon.com/postgresql/postgresql-administration/postgresql-revoke
+
+
+
+
+====================
+04b
+====================
+
+
+https://www.postgresql.org/docs/current/sql-values.html
+https://www.postgresql.org/docs/current/queries-values.html
