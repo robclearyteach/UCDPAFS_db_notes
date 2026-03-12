@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+
+    {%block content%}
+        <h1>Flask</h1>
+        <p> This is a flask app</p>
+
+        <p>Added user for-loop:</p>
+        {% for user in users %}
+            <p>{{ user.id }}, {{ user.username }}, {{ user.email }}
+                <a href="{{ url_for('user_delete', user_id=user.id) }}">[Delete]</a> 
+                <a href="{{ url_for('user_edit', user_id=user.id) }}">[Edit]</a>
+            </p>
+        {% endfor %}
+
+        <a href="{{url_for('user_form')}}">Add User</a>
+    {%endblock%}
+
